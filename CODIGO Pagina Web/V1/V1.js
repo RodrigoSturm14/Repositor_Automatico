@@ -39,7 +39,7 @@ function NuevoProd(Name,RutImag,NumStock){
             // Crear un elemento span para mostrar el valor de la cantidad en el carrito
             var cartCountSpan = document.createElement("span");
             cartCountSpan.id = "cartCount1"; // Establecer el id del span
-            cartCountSpan.textContent = " "; // Establecer el valor de la cantidad en el carrito            <<<<<<<<<<<================================================
+            cartCountSpan.textContent = "0"; // Establecer el valor de la cantidad en el carrito            <<<<<<<<<<<================================================
 
             // Agregar el span al párrafo de cantidad en el carrito
             cartCountParagraph.appendChild(cartCountSpan);
